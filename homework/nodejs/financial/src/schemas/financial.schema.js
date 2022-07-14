@@ -5,10 +5,10 @@ const fullnameRegex = /^([\w]{3,})+\s+([\w\s]{3,})+$/i
 
 const validateFinancial = async (req, res, next) => {
   const schema = Joi.object().keys({
-    bankname: Joi.string().required().messages({
+    nome_banco: Joi.string().required().messages({
       'any.required': 'o nome do banco é obrigatório',
     }),
-    accountType: Joi.string()
+    tipo_conta: Joi.string()
       .valid('corrente', 'poupança', 'salário')
       .required()
       .messages({
@@ -16,11 +16,11 @@ const validateFinancial = async (req, res, next) => {
         'any.only':
           'o tipo da conta deve ser: "corrente", "poupança", "salário"',
       }),
-    holdername: Joi.string().required().regex(fullnameRegex).messages({
+    nome_titular: Joi.string().required().regex(fullnameRegex).messages({
       'string.pattern.base': 'o nome do titular informado é inválido',
       'any.required': 'o nome do titular é obrigatório',
     }),
-    cardLimit: Joi.number().required().messages({
+    limite_cartao: Joi.number().required().messages({
       'any.required': 'O campo limite de crédito é obrigatório',
     }),
     apikey: Joi.string().required().messages({
