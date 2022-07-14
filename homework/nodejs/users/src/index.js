@@ -24,7 +24,6 @@ app.use(
   notfound
 )
 
-console.log(config.db_path)
 mongoose.connect(config.db_path, { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.listen(process.env.PORT || 3000, () => console.log(`Servidor on-line! Porta: ${process.env.PORT || 3000}`))
