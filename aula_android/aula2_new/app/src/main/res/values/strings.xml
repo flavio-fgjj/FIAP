@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">login_add_view</string>
+    <string name="login_name_hint">Enter your name</string>
+    <string name="login_pass_hint">Enter your password</string>
 </resources>
