@@ -13,10 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c4fd695-b01c-4120-bf1b-b8f85c62ab42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/user/add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/user/view.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula2_new/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2_new/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2_new/app/src/main/java/com/example/login_add_view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/java/com/example/login_add_view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/user/add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/user/add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2_new/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,9 +116,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
