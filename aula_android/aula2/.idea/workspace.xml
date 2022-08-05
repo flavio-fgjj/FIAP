@@ -13,11 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c4fd695-b01c-4120-bf1b-b8f85c62ab42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/user/add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/layout/user/view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../aula2_new/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula2_new/app/src/main/java/com/example/login_add_view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/java/com/example/login_add_view/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula2_new/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula2_new/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
